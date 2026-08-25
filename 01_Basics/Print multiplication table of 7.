@@ -1,0 +1,7 @@
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Print multiplication table of 7.");
+        for(int i=7;i<=70;i=i+7)
+        System.out.println(i);
+    }
+}
