@@ -1,0 +1,7 @@
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Print first 5 even numbers using for loop");
+        for(int i=2;i<=10;i=i+2)
+        System.out.println(i);
+    }
+}
