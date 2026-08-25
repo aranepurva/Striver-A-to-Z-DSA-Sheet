@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner Sc=new Scanner(System.in);
+        System.out.println("Stop loop when value becomes 6 using break.");
+        int n=Sc.nextInt();
+        for(int i=1;i<=n;i++){
+            if(i==6){
+                break;
+            }
+            System.out.println(i);
+        }
+        Sc.close();
+    }
+}
