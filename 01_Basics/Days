@@ -31,7 +31,6 @@ public class main{
 
       default:
       System.out.println("Invalid Statement");
-    
     }
     Sc.close();
   }
